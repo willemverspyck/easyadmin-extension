@@ -1,0 +1,46 @@
+{
+    "name": "spyck/easyadmin-extension",
+    "description": "EasyAdmin Extension for Symfony",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Willem Verspyck",
+            "email": "willemverspyck@outlook.com",
+            "homepage": "https://verspyck.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "easyadmin",
+        "extension",
+        "php"
+    ],
+    "homepage": "https://github.com/willemverspyck/easyadmin-extension",
+    "type": "library",
+    "require": {
+        "php": "^8.4",
+        "easycorp/easyadmin-bundle": "^5",
+        "symfony/dependency-injection": "^7.4|^8.1",
+        "symfony/form": "^7.4|^8.1",
+        "symfony/http-foundation": "^7.4|^8.1",
+        "symfony/http-kernel": "^7.4|^8.1",
+        "symfony/options-resolver": "^7.4|^8.1",
+        "symfony/security-core": "^7.4|^8.1"
+    },
+    "require-dev": {
+        "escapestudios/symfony2-coding-standard": "^3",
+        "friendsofphp/php-cs-fixer": "^3",
+        "phpunit/phpunit": "^13",
+        "squizlabs/php_codesniffer": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spyck\\EasyAdminExtension\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spyck\\EasyAdminExtension\\Tests\\": "tests/"
+        }
+    }
+}
